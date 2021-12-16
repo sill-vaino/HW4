@@ -1,0 +1,20 @@
+.body{
+    background-color: burlywood;
+}
+.create-post{
+    display:block;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(79, 79, 255);
+    width: 70%;
+    height: 40%;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+
+div div_post_text p {
+    margin-left: 7%;
+}
+div div_postpic p {
+    margin-left: 1%;
+}
