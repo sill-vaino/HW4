@@ -1,0 +1,44 @@
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=>, initial-scale=1.0">
+<link href="./css/newstyle.css" rel="stylesheet" type="text/css">
+<title> Create a post</title>
+<body>
+<%- include('./partials/navigationBar.ejs') %>
+<br>
+
+<div class="create-post">
+    <form action="/posts" method="POST">
+
+
+
+        <div_post_text>
+            <p>
+                <label for="body">Post text:</label>
+                <input type="text" id="body" name="body" required><br><br>
+            </p>
+        </div_post_text>
+
+        <div_user>
+            <p>
+                <label for="userurl"> Profile picture URL:</label>
+                <input type="text" id="userurl" name="userurl"></textarea><br><br>
+            </p>
+        </div_user>
+
+        <div_postpic>
+            <p>
+                <label for="posturl"> Post picture URL:</label>
+                <input type="text" id="posturl" name="posturl"></textarea><br><br>
+            </p>
+        </div_postpic>
+
+        <button>Submit</button>
+
+    </form>
+</div>
+
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>
